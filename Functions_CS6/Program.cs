@@ -10,6 +10,7 @@ namespace Functions_CS6
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Testing github extension on Visual Studio 2017");
         }
     }
 }
