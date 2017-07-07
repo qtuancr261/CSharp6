@@ -24,10 +24,10 @@ namespace Functions_CS6
             Console.WriteLine($"The sum of all values in arrayA: {SumArray(arrayA)}");
             //---------------------------------------------------------------------------------------------------------------
             short aNum = 10, bNum = 22;
-            PassByValue(aNum, bNum);
-            Console.WriteLine($"Now OUTSIDE: {aNum} - {bNum}");
-            passByRef(ref aNum, ref bNum); // C# differs from C++ - you must include ref keywork with the argument
-            Console.WriteLine($"Now OUTSIDE: {aNum} - {bNum}");
+            PassBy(aNum, bNum);
+            Console.WriteLine($"Now OUTSIDE: {aNum} | {bNum}");
+            PassBy(ref aNum, ref bNum); // C# differs from C++ - you must include ref keywork with the argument
+            Console.WriteLine($"Now OUTSIDE: {aNum} | {bNum}");
 
         }
         public static int SumParaArrays(params int[] vals)
@@ -59,7 +59,7 @@ namespace Functions_CS6
             return sum;
         }
         public static void OutPut2Value(short aValue, short bValue) => Console.WriteLine($"{aValue} | {bValue}"); // new Features from C# 6.0 - expression bodied method
-        public static void PassByValue(short aValue, short bValue)
+        public static void PassBy(short aValue, short bValue)
         {
             Console.Write($"Original Values is: ");
             OutPut2Value(aValue, bValue);
@@ -67,7 +67,7 @@ namespace Functions_CS6
             bValue -= 100;
             Console.WriteLine($"Temporary Values after being passed by value in PassByValue funtion: {aValue} | {bValue}  - INSIDE");
         }
-        public static void passByRef(ref short aValue, ref short bValue)
+        public static void PassBy(ref short aValue, ref short bValue)
         {
             Console.Write($"Original Values is: ");
             OutPut2Value(aValue, bValue);
