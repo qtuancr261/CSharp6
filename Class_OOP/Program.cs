@@ -1,10 +1,15 @@
 ﻿using static System.Console;
 using System;
 using ClassLib;
+using Vehicles;
 namespace Class_OOP
 {
     class Program
     {
+        public static void AddPassenger(IPassengerCarry PassengerCarryVehicle)
+        {
+            WriteLine(PassengerCarryVehicle.ToString());
+        }
         static void Main(string[] args)
         {
             APerson peter = new APerson();
@@ -40,6 +45,13 @@ namespace Class_OOP
             lib.info = "Thieu Quang Tuan";
             libCpy.info = "Windows 10 Creator";
             WriteLine($"class: lib.info = {lib.info} | libCpy.info = {libCpy.info}");
+
+            SUV SUV2017 = new SUV();
+            AddPassenger(SUV2017);
+
+            PassengerTrain PTrain2010 = new PassengerTrain();
+            AddPassenger(PTrain2010);
+
         }
     }
 }
