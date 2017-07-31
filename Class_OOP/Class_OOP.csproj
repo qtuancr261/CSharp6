@@ -51,6 +51,8 @@
     <Compile Include="ABook.cs" />
     <Compile Include="APerson.cs" />
     <Compile Include="Author.cs" />
+    <Compile Include="BookCategories.cs" />
+    <Compile Include="ITBook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -12,7 +12,7 @@ namespace Class_OOP
         }
         static void Main(string[] args)
         {
-            APerson peter = new APerson();
+            APerson peter = new  APerson();
             WriteLine(peter.GetName() + "\n-------");
 
             APerson mary = new APerson("Mary", 20, "London", "985563");
@@ -51,6 +51,8 @@ namespace Class_OOP
 
             PassengerTrain PTrain2010 = new PassengerTrain();
             AddPassenger(PTrain2010);
+
+
 
         }
     }
