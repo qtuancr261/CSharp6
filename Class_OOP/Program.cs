@@ -13,19 +13,19 @@ namespace Class_OOP
         static void Main(string[] args)
         {
             APerson peter = new  APerson();
-            WriteLine(peter.GetName() + "\n-------");
+            WriteLine(peter.Name() + "\n-------");
 
             APerson mary = new APerson("Mary", 20, "London", "985563");
-            WriteLine(mary.GetName() + "\n-------");
+            WriteLine(mary.Name() + "\n-------");
 
             APerson havok = new APerson("Havok");
-            WriteLine(havok.GetName() + "\n-------");
+            WriteLine(havok.Name() + "\n-------");
 
             Author IvorHorton = new Author();
-            WriteLine(IvorHorton.GetName() + "\n-------");
+            WriteLine(IvorHorton.Name() + "\n-------");
 
             Author Teddy = new Author("Teddy", 35);
-            WriteLine(Teddy.GetName() + "\n-------");
+            WriteLine(Teddy.Name() + "\n-------");
 
             MyExternalLib lib = new MyExternalLib();
 
