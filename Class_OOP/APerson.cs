@@ -22,7 +22,7 @@ namespace Class_OOP
             address = initAddress;
             phoneNumber = initPhoneNum;
         }
-        public String GetName() => name;
+        public String Name() => name;
         public void SetName(String newName) => name = newName;
 
     }
