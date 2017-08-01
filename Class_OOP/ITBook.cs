@@ -23,6 +23,5 @@ namespace Class_OOP
         {
             return OriginalPrice - OriginalPrice * DiscountPercent;
         }
-
     }
 }
