@@ -20,7 +20,7 @@ namespace CardLib
         }
         #endregion constructor
         #region override_methods
-        public override string ToString() => $"The {rank} of {suit} s";
+        public override string ToString() => $"The {rank} of {suit}s";
         #endregion override_methods
     }
 }
