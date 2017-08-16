@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib", "ClassLib\ClassL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles", "Vehicles\Vehicles.csproj", "{57CCC38F-92D2-4609-984D-2767BEFA4005}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardLib", "CardLib\CardLib.csproj", "{091C7E75-DA54-404D-9B95-A87CA3D48992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardClient", "CardClient\CardClient.csproj", "{1323FE4C-9E85-480C-ABE4-A4A4B8A97EF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{57CCC38F-92D2-4609-984D-2767BEFA4005}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57CCC38F-92D2-4609-984D-2767BEFA4005}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57CCC38F-92D2-4609-984D-2767BEFA4005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091C7E75-DA54-404D-9B95-A87CA3D48992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091C7E75-DA54-404D-9B95-A87CA3D48992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091C7E75-DA54-404D-9B95-A87CA3D48992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091C7E75-DA54-404D-9B95-A87CA3D48992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1323FE4C-9E85-480C-ABE4-A4A4B8A97EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1323FE4C-9E85-480C-ABE4-A4A4B8A97EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1323FE4C-9E85-480C-ABE4-A4A4B8A97EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1323FE4C-9E85-480C-ABE4-A4A4B8A97EF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
