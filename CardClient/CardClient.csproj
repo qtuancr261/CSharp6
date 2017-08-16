@@ -33,5 +33,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CardLib\CardLib.csproj">
+      <Project>{091C7E75-DA54-404D-9B95-A87CA3D48992}</Project>
+      <Name>CardLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
